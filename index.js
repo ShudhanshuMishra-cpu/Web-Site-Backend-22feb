@@ -34,9 +34,9 @@ app.get("/getBlog/:id", async (req, res) => {
 // rishabh2560
 // XJUHAmrOAzVUrvJD;
 
-// const port = 5000;
-// app.listen(port);
-const PORT = process.env.PORT || 6000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+const port = 5000;
+app.listen(port);
+// const PORT = process.env.PORT || 6000;
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`);
+// });
